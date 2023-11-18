@@ -30,12 +30,11 @@ export const Cart = () => {
         <div className="checkout">
           <p>Subtotal: £{totalAmount}</p>
           <button onClick={() => navigate("/")}> Continue Shopping </button>
-          <button onClick ={() =>{ checkout ();  navigate ("/checkout");
-          }}
-        > 
-        {" "}
-          
-          Checkout </button>
+          <button onClick={() => { checkout("/"); navigate("/checkout");
+            }}
+          >
+            Checkout{" "}
+          </button>
         </div>
       ) : (
         <h1> Your cart is empty</h1>
