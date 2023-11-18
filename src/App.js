@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navbar } from "./components/navbar";
-import { Cart } from "./pages/cart/cart";
-import { Shop } from "./pages/shop/shop";
-import { ShopContextProvider } from "./context/shop-context";
+import { Navbar } from "./Components/Navbar";
+import { Cart } from "./Pages/Cart/Cart";
+import { Shop } from "./Pages/Shop/Shop";
+import { ShopContextProvider } from "./Context/ShopContext";
 
 function App() {
   return (
