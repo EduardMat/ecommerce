@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {createContext} from "react";
-import {PRODUCTS} from "./Products";
+import {PRODUCTS} from "./Products.js"
+
 
 export const ShopContext = createContext(null);
 
